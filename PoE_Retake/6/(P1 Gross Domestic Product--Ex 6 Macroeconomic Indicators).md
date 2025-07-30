@@ -1,6 +1,4 @@
-The provided documents consist of two PDFs: "Exercise 6 Macroeconomic Indicators" and "Solution 6 Macroeconomic Indicators," both from the Principles of Economics course at TUM School of
-
- Management for Winter Term 2024-2025. The exercise PDF presents problems related to macroeconomic indicators, specifically Gross Domestic Product (GDP), price levels (GDP-Deflator and CPI), and unemployment. The solution PDF provides the answers and calculations. Below, I analyze the questions and solutions for Problem 1 and Problems 2–4, as requested, in two sectors. For each problem, I explain the question, break it into key components, and provide a step-by-step explanation of the solution, including reasoning, methods, concepts, assumptions, and a summary.
+The provided documents consist of two PDFs: "Exercise 6 Macroeconomic Indicators" and "Solution 6 Macroeconomic Indicators," both from the Principles of Economics course at TUM School of Management for Winter Term 2024-2025. The exercise PDF presents problems related to macroeconomic indicators, specifically Gross Domestic Product (GDP), price levels (GDP-Deflator and CPI), and unemployment. The solution PDF provides the answers and calculations. Below, I analyze the questions and solutions for Problem 1 and Problems 2–4, as requested, in two sectors. For each problem, I explain the question, break it into key components, and provide a step-by-step explanation of the solution, including reasoning, methods, concepts, assumptions, and a summary.
 
 ---
 

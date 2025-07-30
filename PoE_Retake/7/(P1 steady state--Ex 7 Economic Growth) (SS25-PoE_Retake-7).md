@@ -49,8 +49,8 @@ $$
 
 **Assumptions and Definitions:**
 - Assumes the production function is Cobb-Douglas, $Y = L^{\frac{1}{2}} K^{\frac{1}{2}}$, which is common in economic growth models.
-- $k = \frac{K}{L}$: Capital per worker.
-- $y = \frac{Y}{L}$: Output per worker.
+- ==$k = \frac{K}{L}$: Capital per worker.==
+- ==$y = \frac{Y}{L}$: Output per worker.==
 
 **Step Summary:**
 We derived $y = k^{\frac{1}{2}}$, meaning output per worker depends on the square root of capital per worker, consistent with the Cobb-Douglas form.
@@ -138,7 +138,7 @@ $$
   y^* = (400s^2)^{\frac{1}{2}} = 20s
 $$
 
-**Step 5: Compute Steady-State Consumption per Worker**
+==**Step 5: Compute Steady-State Consumption per Worker**==
 - Consumption per worker is:
   $$
   c^* = (1 - s) y^* = (1 - s) (20s) = 20s - 20s^2
@@ -147,7 +147,7 @@ $$
 **Methods and Concepts:**
 - **Steady-State in the Solow Model:** The steady state occurs when the capital stock per worker is constant, balancing investment and depreciation plus labor growth.
 - **Cobb-Douglas Production Function:** Allows easy manipulation of per-worker terms.
-- **Consumption Identity:** $c = y - i$, and in steady state, $i = s y$, so $c^* = (1 - s) y^*$.
+- ==**Consumption Identity:** $c = y - i$, and in steady state, $i = s y$, so $c^* = (1 - s) y^*$.==
 
 **Assumptions and Definitions:**
 - Assumes a closed economy with no government or trade.

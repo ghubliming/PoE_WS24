@@ -18,7 +18,7 @@ For $q = 20$, we need to determine the relationship between marginal costs (MC) 
 #### Step-by-Step Explanation of the Solution
 
 **Step 1: Calculate Marginal Cost (MC)**
-- **Explanation of Reasoning:** Marginal cost is the additional cost of producing one more unit of output. We need MC to compare it with AC.
+- **Explanation of Reasoning:** ==Marginal cost is the additional cost of producing one more unit of output. We need MC to compare it with AC.== ^g0ok73
 - **Methods and Concepts:** MC is the derivative of the total cost function $C(q)$ with respect to $q$. For the short-run cost function $C(q) = 200 + 2q^2$, we compute:
   $$
   MC(q) = \frac{dC}{dq} = \frac{d}{dq}(200 + 2q^2) = 0 + 4q = 4q

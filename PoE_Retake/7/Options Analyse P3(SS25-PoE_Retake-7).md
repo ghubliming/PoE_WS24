@@ -20,7 +20,7 @@ I'll analyze each option in Problem 3 where the saving rate s = 1/3 and capital 
 
 ## Option D: "then the capital stock K decreases over time at a constant rate."
 - **Analysis**: This is FALSE.
-- **Reasoning**: In the steady state, the aggregate capital stock K grows at the same rate as labor, which is n = 1/6. This is because K = L·k, where k is constant and L grows at rate n.
+- **Reasoning**: ==In the steady state, the aggregate capital stock K grows at the same rate as labor, which is n = 1/6. This is because K = L·k, where k is constant and L grows at rate n.==
 - **Economic intuition**: While capital per worker remains constant, the total capital stock must grow to equip new workers entering the workforce, making K increase (not decrease) at rate n = 1/6.
 
 Therefore, only option B is correct in this Solow growth model scenario.

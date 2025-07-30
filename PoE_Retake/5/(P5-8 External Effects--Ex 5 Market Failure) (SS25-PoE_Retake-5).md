@@ -1,5 +1,6 @@
 >[!tip]
 >Get the Function Graph in Solution PDF
+>![](./(P5-8%20External%20Effects--Ex%205%20Market%20Failure)%20(SS25-PoE_Retake-5)-1753822337009.png)
 
 
 Let’s analyze the problem and solution for each of the questions (Problems 5–8) in the provided image. I’ll break down each question, explain what it’s asking, and then provide a step-by-step explanation of the solution, including reasoning, methods, concepts, assumptions, and definitions. Finally, I’ll summarize each problem’s solution and confirm the final answer.
@@ -229,7 +230,7 @@ Problem 8 introduces a tax $t = \frac{1}{5}$ per unit of output on producers, co
 - Not Collective
 
 **Step 1: Adjust the Profit Maximization with Tax**
-- **Explanation of Reasoning:** The tax $t = \frac{1}{5}$ is equivalent to the external cost, so firms effectively internalize the externality, leading to the same supply as in Problem 6.
+- **Explanation of Reasoning:** The tax $t = \frac{1}{5}$ is ==equivalent to the external cost==, so firms effectively internalize the externality, leading to the same supply as in Problem 6.
 - **Methods and Concepts:** Profit with tax:
   $$
   \pi_i(q_i) = p \cdot q_i - C(q_i) - t \cdot q_i + S.
@@ -285,7 +286,7 @@ $$
   $$
   \pi_i + S = 0 \implies -3.75 + S = 0 \implies S = 3.75.
 $$
-- **Methods and Concepts:** The lump-sum subsidy offsets the negative profit.
+- ==**Methods and Concepts:** The lump-sum subsidy offsets the negative profit.==
 - **Assumptions and Definitions:** Firms make zero profit in equilibrium.
 
 **Overall Summary for Problem 8:**

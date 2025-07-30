@@ -85,6 +85,47 @@ We need to determine the number of firms $n$ in long-run equilibrium. In a perfe
 - **Reasoning:** At the break-even quantity, the price is set where $p = MC = AC$.  
 - From Step 2, when $q = 10$, $p = MC = 25$. So, the equilibrium price is $p = 25$.
 
+> [!tip] MC and AC Deep Logic
+> This statement explains the **first-order condition** for profit maximization.
+> 
+> For any firm producing q > 0 units, profit maximization requires:
+> **p = MC(q)**
+> 
+> This means price must equal marginal cost at the chosen output level.
+> 
+> **Why this condition exists:**
+> - If p > MC: firm can increase profit by producing more
+> - If p < MC: firm loses money on additional units, should produce less
+> - Only when p = MC is profit maximized
+> 
+> The phrase "which implies" suggests this condition leads to further conclusions about the firm's behavior or market outcomes in whatever context follows.
+> 
+> *Not AC*
+> Because profit maximization uses **marginal analysis**, not average analysis.
+> 
+> At the profit-maximizing quantity:
+> - **Marginal Revenue = Marginal Cost**
+> - In perfect competition, MR = price, so p = MC
+> 
+> The logic: produce until the last unit adds exactly as much revenue as it costs. Beyond that point, additional units reduce total profit.
+逻辑：生产直到最后一个单位的收入与成本一样多。除此之外，额外的单位降低了总利润。
+> 
+> AC determines whether you make profit (p > AC) or loss (p < AC), but MC determines the optimal quantity to produce. ^w04p07
+> 
+> - Because profit maximization follows the **marginal principle**: keep producing as long as each additional unit adds more revenue than cost.
+> - **MC tells you**: should I produce one more unit?
+> - **AC tells you**: am I profitable overall?
+> 
+> These are different questions. The optimal quantity depends on marginal comparisons, not averages.
+> 
+> Example: If the 100th unit brings in $10 revenue but costs $8 (MC), produce it. Even if your AC is $12, that marginal unit still increases total profit by $2.
+> - Current situation: losing $2 per unit (price $10, AC $12)
+> - But marginal unit still adds $2 to total profit
+> - Eventually, as production increases, AC typically falls
+> - When AC drops below $10, the firm becomes profitable overall
+> 
+> The firm produces at a loss now because it expects future profitability as average costs decrease with scale.
+
 **Step 4: Derive the Individual Firm’s Supply Function**  
 - **Reasoning:** The firm’s supply function $q(p)$ comes from setting $p = MC(q)$, but firms only produce if $p \geq AC_{\text{min}}$, otherwise they produce $q = 0$.  
 - **Calculation:**  
@@ -131,12 +172,20 @@ We derived the marginal and average costs, found the break-even quantity $q = 10
 Given $n = 10$, $p = 25$, and equilibrium quantity $Q = 100$, compute consumer surplus (CS) and producer surplus (PS).
 给定$ n = 10 $，$ p = 25 $，以及平衡数量$ q = 100 $，计算消费者盈余（CS）和生产者剩余（PS）。
 #### Step-by-Step Solution
+>[!info] 
+>Q^D ~ p function 
+
 
 **Step 1: Calculate Consumer Surplus**  
 - **Reasoning:** Consumer surplus is the area under the demand curve above the price, from $Q = 0$ to the equilibrium quantity.
 - **Methods and Concepts:** For a linear demand curve $Q^D = 125 - p$, CS is the area of a triangle. The demand curve intersects the price axis at $Q = 0$, so $p = 125$. At $p = 25$, $Q = 100$.  
 - **Calculation:**  
   $$\text{CS} = \frac{1}{2} \cdot (\text{base}) \cdot (\text{height}) = \frac{1}{2} \cdot (125 - 25) \cdot 100 = \frac{1}{2} \cdot 100 \cdot 100 = 5,000$$
+Where:
+
+Base = quantity at equilibrium (Q = 100)
+Height = difference between maximum price and equilibrium price (125 - 25 = 100)
+
 >![](./_P2-6%20--Ex%204%20Perfect%20Competition_%20_SS25-PoE_Retake-4_-1745503129654.png)
 >**The way I drew it** (traditional economics textbook style):
 > - Price (P) on the vertical axis
@@ -145,6 +194,9 @@ Given $n = 10$, $p = 25$, and equilibrium quantity $Q = 100$, compute consumer s
 
 
 **Step 2: Calculate Producer Surplus**  
+>[!info] 
+>Q^S ~ p function
+
 
 >![](./_P2-6%20--Ex%204%20Perfect%20Competition_%20_SS25-PoE_Retake-4_-1745505747099.png)
 
@@ -154,6 +206,10 @@ Given $n = 10$, $p = 25$, and equilibrium quantity $Q = 100$, compute consumer s
 - Individual supply: $q = 2(p - 20)$, so $p = 20 + \frac{q}{2}$. Market supply: $Q = n \cdot q = 10 \cdot 2(p - 20) = 20(p - 20)$. At $p = 25$, $Q = 100$.  
   The supply curve starts at $p = 20$ (where $Q = 0$).  
   $$\text{PS} = \frac{1}{2} \cdot (\text{base}) \cdot (\text{height}) = \frac{1}{2} \cdot (25 - 20) \cdot 100 = \frac{1}{2} \cdot 5 \cdot 100 = 250$$
+Where:
+
+Base = quantity at equilibrium (Q = 100)
+Height = difference between equilibrium price and minimum supply price (25 - 20 = 5)
 
 **Summary for Problem 3:**  
 Consumer surplus is 5,000, and producer surplus is 250, so **(B)** is correct. Note that in the long run, PS is often zero due to zero profits, but the problem’s calculation aligns with the given options.
@@ -161,6 +217,11 @@ Consumer surplus is 5,000, and producer surplus is 250, so **(B)** is correct. N
 ---
 
 ### Problem 4: Welfare Loss from a Price Ceiling at $p' = 20$
+[[Welfare Loss (SS25-PoE_Retake-4)]]
+
+>[!info] 
+>the Welfare Loss is the *Oppsite* of the Total Surplus 
+
 
 #### Question Breakdown
 A price ceiling at $p' = 20$ is introduced. We need to find the welfare loss (deadweight loss).
@@ -195,7 +256,7 @@ A price floor at $p'' = 20$ is introduced. We need to find the welfare loss.
 #### Step-by-Step Solution
 
 **Step 1: Analyze the Effect of the Price Floor**  
-- **Reasoning:** The equilibrium price is $p = 25$. A price floor at $p = 20 < 25$ is below the equilibrium price, so it has no effect—firms can still sell at $p = 25$.  
+- **Reasoning:** The equilibrium price is $p = 25$. A price floor at $p = 20 < 25$ is below the equilibrium price, so it has no effect—firms can ==still sell== at $p = 25$.  
 - **Calculation:** The market remains at $p = 25$, $Q = 100$, with no change in surplus.
 
 **Step 2: Calculate Welfare Loss**  

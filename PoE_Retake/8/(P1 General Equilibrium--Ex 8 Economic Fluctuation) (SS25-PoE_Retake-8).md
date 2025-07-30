@@ -32,7 +32,7 @@ $$
 
 **Technical Terms and Definitions:**
 - **IS Curve:** Derived from the goods market equilibrium where total output $Y$ equals aggregate demand, ==which includes consumption $C(Y - T)$, investment $I(r)$, and government spending $G$.==
-- **LM Curve:** Derived from the money market equilibrium where ==money demand (a function of income $Y$ and interest rate $r$) equals money supply $M$.==
+- **LM Curve:** Derived from the money market equilibrium where ==money demand(or **L Liquidity**) (a function of income $Y$ and interest rate $r$) equals money supply $M$.==
 - **General Equilibrium:** The point where both IS and LM equations hold simultaneously, determining equilibrium $Y^*$ and $r^*$.
 
 **Assumptions:**

@@ -1,4 +1,5 @@
 >![](./_P2-4%20Monopoly--Ex%205%20Market%20Failure_%20_SS25-PoE_Retake-5_-1745576412307.png)
+>[[Graph Expl((P2-4 Monopoly--Ex 5 Market Failure)) (SS25-PoE_Retake-5)]]
 
 
 Let’s analyze the attached image, which contains economics problems related to monopoly behavior, along with their solutions. The image includes a general setup for a monopoly problem, followed by specific multiple-choice questions (Problems 2, 3, and 4). I’ll focus on breaking down the questions, explaining the solutions step by step, and ensuring clarity in reasoning, methods, concepts, assumptions, and definitions. Since the solutions are provided, I’ll verify them and elaborate on the process.
@@ -22,8 +23,8 @@ $$
 \frac{d\pi(Q)}{dQ} = 75 - 2 \cdot \frac{5}{4} Q = 75 - \frac{5}{2} Q.
 $$
 
-Set the derivative to zero to find the critical point:
-
+Set the derivative to zero to find the **critical point**:
+>*Q^M*
 $$
 75 - \frac{5}{2} Q = 0 \implies Q = 30.
 $$
@@ -46,13 +47,13 @@ $$
 MC(Q) = \frac{dC(Q)}{dQ} = \frac{d}{dQ} \left( c^f + \frac{1}{4} Q^2 \right) = \frac{1}{2} Q.
 $$
 
-Set $p = MC$:
+==Set $p = MC$:==
 
 $$
 75 - Q = \frac{1}{2} Q \implies 75 = \frac{3}{2} Q \implies Q = 50.
 $$
 
-So, the competitive output is $Q^* = 50$, and the corresponding price is:
+So, the ==competitive output== is $Q^* = 50$, and the corresponding price is:
 
 $$
 p^* = 75 - 50 = 25.
@@ -125,9 +126,12 @@ $$
 
 3. **Verify Against Options:**
    - (A) $CS = 600$: This is consumer surplus, not welfare loss. $CS = \frac{1}{2} \cdot (75 - 45) \cdot 30 = 450$, so this is incorrect.
-   - (B) $PS = 900$: Producer surplus is $PS = \pi^M = 1,125 - 625 = 500$, incorrect. ^ns1mwo
+	   - $Q^M = 30$ $p(Q^M) = 45$
+   - (B) $PS = 900$: ==Producer surplus is $PS = \pi^M = 1,125 - 625 = 500$==, incorrect. ^ns1mwo
    - (C) $TS = 1,500$: Total surplus under monopoly is $CS + PS = 450 + 500 = 950$, incorrect.
    - (D) $WL = 300$: Matches our calculation.
+
+[[CS PS in (Problem 3 Welfare Loss with Fixed Costs--(P2-4 Monopoly--Ex 5 Market Failure)) (SS25-PoE_Retake-5)]]
 
 **Methods and Concepts:**
 - **Welfare Loss:** The triangle between the demand curve and marginal cost curve from $Q^M$ to $Q^*$, representing lost gains from trade.

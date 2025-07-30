@@ -39,6 +39,10 @@ The provided solution follows a logical sequence to address each part. I’ll go
 #### Part (a): Equilibrium Number of Firms as a Function of $a$ and $c^f$
 [[condition for max Profit (SS25-PoE_Retake-4)]]
 
+>[!tip] Connection to other notes
+>[[SS25/PoE_Retake/3/(P6-8 Profit Maximization--Ex3 Production and Supply) (SS25-PoE_Retake-3)#^g0ok73]]
+
+
 **Step 1: Determine the Firm’s Profit-Maximizing Output**
 
 - **Explanation of Reasoning:** In a perfectly competitive market, each firm takes the market price $p$ as given and maximizes profit by *setting marginal cost equal to price, provided profit is non-negative*. If profit is negative, the firm produces $q = 0$.
@@ -54,7 +58,7 @@ $$
 - **Assumptions and Definitions:** We assume the firm produces $q > 0$ for now and will check the profit condition later. Marginal cost $MC(q)$ is the derivative of the cost function with respect to output.
 
 [[Alternative Solution Step 2+ (SS25-PoE_Retake-4)]]
-**Step 2: Calculate Profit and Break-Even Condition**
+**Step 2: Calculate Profit and *Break-Even* Condition**
 
 - **Explanation of Reasoning:** In the long run, firms in a perfectly competitive market enter or exit until profit is zero (the break-even condition). We need to find the profit at $q = \frac{p}{2}$ and set it to zero.
 - **Methods and Concepts:** Substitute $q = \frac{p}{2}$ into the profit function:
@@ -116,63 +120,11 @@ $$
 $$
 - **Assumptions and Definitions:** We assume $a - 2\sqrt{c^f} \geq 0$ for positive demand; otherwise, the market may not exist. The floor function $\lfloor x \rfloor$ ensures $n$ is an integer.
 
-#### Part (b): Calculate $n^*$ and Profit per Firm for Given Values
+#### Part (b) Equilibrium Number of Firms and Profit Calculations (SS25-PoE_Retake-4)
+[[Part (b) Equilibrium Number of Firms and Profit Calculations (SS25-PoE_Retake-4)]]
 
-**General Setup for Part (b):**
-
-- **Explanation of Reasoning:** Using the results from part (a), we compute $p^*$, $Q^*$, $q^*$, and $\pi^*$ for each case.
-- **Methods and Concepts:** From part (a):
-  - Equilibrium price: $p^* = 2\sqrt{c^f}$
-  - Market output: $Q^* = a - p^* = a - 2\sqrt{c^f}$
-  - Output per firm: $q^* = \frac{p^*}{2} = \sqrt{c^f}$
-  - Profit per firm: $\pi^* = \frac{(p^*)^2}{4} - c^f = 0$ (since $p^* = 2\sqrt{c^f}$)
-  - Number of firms: $n^* = \max \left\{ \left\lfloor \frac{a}{\sqrt{c^f}} - 2 \right\rfloor, 0 \right\}$
-
-**Case (i): $a = 120$, $c^f = 100$**
-
-- **Explanation of Reasoning:** Substitute the values into the formulas.
-- **Methods and Concepts:**
-  - $\sqrt{c^f} = \sqrt{100} = 10$
-  - $p^* = 2\sqrt{c^f} = 2 \cdot 10 = 20$
-  - $Q^* = a - p^* = 120 - 20 = 100$
-  - $q^* = \sqrt{c^f} = 10$
-  - $n^* = \frac{Q^*}{q^*} = \frac{100}{10} = 10$ (alternatively, $n^* = \left\lfloor \frac{120}{10} - 2 \right\rfloor = \left\lfloor 12 - 2 \right\rfloor = 10$)
-  - $\pi^* = 0$ (as derived in part (a)).
-- **Assumptions and Definitions:** The profit is zero, consistent with the long-run condition.
-
-**Case (ii): $a = 120$, $c^f = 64$**
-
-- **Explanation of Reasoning:** Repeat the process with the new $c^f$.
-- **Methods and Concepts:**
-  - $\sqrt{c^f} = \sqrt{64} = 8$
-  - $p^* = 2 \cdot 8 = 16$
-  - $Q^* = 120 - 16 = 104$
-  - $q^* = \sqrt{c^f} = 8$
-  - $n^* = \frac{104}{8} = 13$ (or $n^* = \left\lfloor \frac{120}{8} - 2 \right\rfloor = \left\lfloor 15 - 2 \right\rfloor = 13$)
-  - $\pi^* = 0$.
-
-**Case (iii): $a = 126$, $c^f = 100$**
-
-- **Explanation of Reasoning:** Apply the same formulas.
-- **Methods and Concepts:**
-  - $\sqrt{c^f} = 10$
-  - $p^* = 20$
-  - $Q^* = 126 - 20 = 106$
-  - $q^* = 10$
-  - $n^* = \frac{106}{10} = 10.6 \rightarrow \left\lfloor 10.6 \right\rfloor = 10$ (or $\left\lfloor \frac{126}{10} - 2 \right\rfloor = \left\lfloor 12.6 - 2 \right\rfloor = 10$)
-  - With $n^* = 10$, $Q^S = 10 \cdot 10 = 100$, but demand at $p = 20$ is 106. Adjust price to clear the market: $Q^D = 10 \cdot \frac{p}{2}$, but since $n$ is fixed, use $p = a - n q$, or recompute profit:
-    - If $n = 10$, $Q^S = 100$, so $p = 126 - 100 = 26$, $q = \frac{100}{10} = 10$, profit:
-    $$
-    \pi = 26 \cdot 10 - (100 + 10^2) = 260 - 200 = 60
-$$
-    This contradicts the solution’s $\pi^* = 10.25$, indicating a potential error in the solution. Let’s correct:
-  - Correct $n^*$: $\frac{126}{10} - 2 = 10.6$, but if $n = 10$, profit isn’t zero. The solution assumes $p = 21$, $Q^* = 105$, $q^* = 10.5$, $\pi^* = 10.25$, which suggests a slight adjustment in interpretation. Let’s verify:
-    - At $n = 10$, $p = 26$, profit is 60, not zero. The solution’s $p = 21$ gives $Q^D = 126 - 21 = 105$, $q = \frac{105}{10} = 10.5$, profit:
-    $$
-    \pi = 21 \cdot 10.5 - (100 + (10.5)^2) = 220.5 - (100 + 110.25) = 220.5 - 210.25 = 10.25
-$$
-    This matches the solution but contradicts the long-run zero-profit condition, suggesting the solution may assume a short-run equilibrium or an error. Let’s proceed with the solution’s values for consistency.
-
+- under note maybe also correct but is not the standard solution
+[[Dropped Problem b Archive(P1 competitive Equilibrium--Ex 4 Perfect Competition) (SS25-PoE_Retake-4)]]
 #### Part (c): Equilibrium Number of Firms with Tax $t$
 
 **Step 1: Adjust Costs for Tax**
@@ -243,19 +195,28 @@ $$
   - $q^* = \sqrt{c^f} = 10$
   - $\pi^* = pq - (c^f + q^2 + tq) = 26 \cdot 10 - (100 + 100 + 6 \cdot 10) = 260 - 260 = 0$
   - Tax revenue $T = t \cdot Q^* = 6 \cdot 100 = 600$
-  - Welfare loss: Without tax ($t = 0$, from part (b)(iii)), $p = 20$, $Q = 106$. With tax, $p = 26$, $Q = 100$. Welfare loss (deadweight loss) is the area of the triangle:
+  - *Welfare loss*: Without tax ($t = 0$, from part (b)(iii)), $p = 20$, $Q = 105$. With tax, $p = 26$, $Q = 100$. Welfare loss (deadweight loss) is the area of the triangle:
     $$
-    WL = \frac{1}{2} \cdot (26 - 20) \cdot (106 - 100) = \frac{1}{2} \cdot 6 \cdot 6 = 18
+    WL = \frac{1}{2} \cdot (26 - 20) \cdot (105 - 100) = \frac{1}{2} \cdot 6 \cdot 5 = 15
 $$
-    (Solution says 15, possibly due to approximation or error; 18 is correct based on values.)
 
----
+#### Further for WL
 
-### Overall Summary
+Based on the solution sheet, the welfare loss calculation is:
 
-- **Part (a):** Derived $n^* = \max \left\{ \left\lfloor \frac{a}{\sqrt{c^f}} - 2 \right\rfloor, 0 \right\}$ by finding the break-even price, firm output, and equating market demand and supply.
-- **Part (b):** Applied formulas to specific cases, though case (iii) showed a discrepancy (profit should be zero in the long run, but the solution suggests a short-run interpretation).
-- **Part (c):** Adjusted for tax, finding $n^* = \max \left\{ \left\lfloor \frac{a - t}{\sqrt{c^f}} - 2 \right\rfloor, 0 \right\}$.
-- **Part (d):** Computed $n^* = 10$, $p^* = 26$, $Q^* = 100$, $\pi^* = 0$, $T = 600$, $WL = 18$, with a minor correction to welfare loss.
+**Without tax (t = 0):** Q* = 105
+**With tax (t = 6):** Q* = 100
+**Output reduction:** 105 - 100 = 5 units
 
-The solution aligns with economic principles of competitive equilibrium, adjusting for taxes appropriately, though part (b)(iii) suggests a potential error in the original solution’s profit calculation.
+**Welfare Loss Formula:**
+$$WL = \frac{1}{2} \times \text{tax rate} \times \text{output reduction}$$
+$$WL = \frac{1}{2} \times 6 \times 5 = 15$$
+
+
+**Economic Interpretation:**
+The welfare loss of 15 represents the deadweight loss triangle where:
+- Base = tax rate (6)
+- Height = quantity reduction (5)
+- Area = ½ × 6 × 5 = 15
+
+This measures the lost consumer and producer surplus from the 5 units of output that are no longer produced due to the tax distortion.

@@ -1,0 +1,11 @@
+- What are the Good types? 
+	- i.e. Giffin Good, normal good, ordinary good etc.
+- WL loss Formula 
+	- in ex4 competitions 
+	- in Monopoly [[5/WL loss formula in externel effects (SS25-PoE_Retake-5)|WL loss formula in externel effects (SS25-PoE_Retake-5)]]
+- CS,PS formulas 
+	- in ex4 competitions 
+	- in ex5 Monopoly
+- What is the MB? in Ex5 last question
+
+- [[7/Golden Rule in Ex7 (SS25-PoE_Retake-7)]]

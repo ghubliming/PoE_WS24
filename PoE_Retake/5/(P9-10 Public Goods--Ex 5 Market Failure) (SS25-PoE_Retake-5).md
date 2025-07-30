@@ -1,5 +1,6 @@
 >[!tip]
 >Graph is in the solution PDF
+>![](./(P9-10%20Public%20Goods--Ex%205%20Market%20Failure)%20(SS25-PoE_Retake-5)-1753822516280.png)
 
 Let’s dive into Problems 9 and 10 about public goods, as presented in the image. These are classic economics problems involving the provision of a public good by multiple individuals, considering costs, benefits, and welfare implications. I’ll break down each problem, explain the key components, and then provide a step-by-step solution for both, following the requested structure.
 
@@ -42,7 +43,7 @@ $$
 - **Assumptions and Definitions:** The cost function is quadratic, implying increasing marginal costs, which is typical for production processes where costs rise as output increases.
 
 **Step 3: Apply the Samuelson Condition**
-- **Explanation of Reasoning:** Set the sum of marginal benefits equal to the marginal cost to find the welfare-maximizing quantity:
+- **Explanation of Reasoning:** ==Set the sum of marginal benefits equal to the marginal cost to find the welfare-maximizing quantity:==
   $$
   5 \cdot MB(Q) = MC(Q) \implies 20 - \frac{1}{2}Q = 10 + \frac{1}{2}Q
 $$

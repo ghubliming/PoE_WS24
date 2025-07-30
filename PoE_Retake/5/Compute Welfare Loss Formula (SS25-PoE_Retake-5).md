@@ -1,113 +1,137 @@
-Let’s dive into why the welfare loss (WL) in a monopoly is calculated using the formula $WL = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - MC(Q^M))$, and specifically address why we use $MC(Q^M)$ instead of the price where $p = MC$, which corresponds to $p(Q^*)$.
+
+>[!warning] Caution
+>old notes may exist logic problem
+
+[[Archive (Compute Welfare Loss Formula) (SS25-PoE_Retake-5)]]
 
 ---
 
-### **Understanding Welfare Loss in a Monopoly**
+# Understanding the Welfare Loss Formula in Monopoly
 
-Welfare loss, or deadweight loss (DWL), represents the inefficiency caused by a monopoly compared to a perfectly competitive market. ==In a competitive market, output is produced where price equals marginal cost ($p = MC$), maximizing total surplus (consumer surplus + producer surplus)==. A monopolist, however, restricts output to maximize profit, producing where marginal revenue equals marginal cost ($MR = MC$), which results in a higher price and lower quantity than the competitive outcome. The welfare loss is the "lost" surplus from the units not produced (from $Q^M$ to $Q^*$).
-
----
-
-### **Breaking Down the Formula**
-
-The formula for welfare loss is:
-
-$$
-WL = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - MC(Q^M)).
-$$
-
-- $Q^*$: The competitive output where $p = MC$.
-- $Q^M$: The monopoly output where $MR = MC$.
-- $p(Q^M)$: The price the monopolist charges at $Q^M$, determined by the demand curve.
-- $MC(Q^M)$: The marginal cost at the monopoly output $Q^M$.
-
-This formula calculates the area of the "deadweight loss triangle" on a supply-demand graph:
-- The base of the triangle is the difference in quantity: $Q^* - Q^M$.
-- The height of the triangle is the difference between the price consumers are willing to pay at $Q^M$ (i.e., $p(Q^M)$) and the marginal cost of producing that quantity (i.e., $MC(Q^M)$).
+Let's examine why the welfare loss (deadweight loss) in a monopoly is calculated using the formula $WL = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - MC(Q^M))$ and clarify the geometric and economic reasoning behind this calculation.
 
 ---
 
-### **Why $MC(Q^M)$ Instead of $p(Q^*)$?**
+## **Welfare Loss Fundamentals**
 
-The question asks why we use $MC(Q^M)$—the marginal cost at the monopoly output—instead of the price at the competitive output $p(Q^*)$, which is where $p = MC$.
-
-#### **Step 1: Visualize the Deadweight Loss Triangle**
-On a graph with quantity on the x-axis and price on the y-axis:
-- The demand curve is downward sloping: $p = 75 - Q$.
-- The marginal cost curve is upward sloping: $MC = \frac{1}{2} Q$ (from the cost function $C(Q) = c^f + \frac{1}{4} Q^2$).
-- The marginal revenue curve for a linear demand $p = 75 - Q$ is $MR = 75 - 2Q$.
-- ==The monopolist produces at $Q^M = 30$, where $MR = MC$, and charges $p(Q^M) = 45$.==
-- The competitive output is at $Q^* = 50$, where $p = MC$, and the price is $p(Q^*) = 25$.
-
-The deadweight loss is the triangle formed by:
-- The demand curve from $Q^M$ to $Q^*$.
-- The marginal cost curve from $Q^M$ to $Q^*$.
-- The vertical line at $Q^M$.
-
-#### **Step 2: Identify the Height of the Triangle**
-==The welfare loss triangle represents the lost surplus for the units not produced (from $Q^M = 30$ to $Q^* = 50$):==
-- At $Q^M = 30$, the price consumers are willing to pay is $p(Q^M) = 45$, but the cost to produce that 30th unit is only $MC(Q^M) = \frac{1}{2} \cdot 30 = 15$.
-- ==For each additional unit beyond $Q^M$ up to $Q^*$, the value to consumers (given by the demand curve) exceeds the cost of production (given by the marginal cost curve). This difference represents the surplus that could have been gained but is lost due to the monopoly’s restricted output.==
-
-The height of the triangle at $Q^M$ is the vertical distance between the demand curve and the marginal cost curve at that quantity:
-- Demand at $Q^M$: $p(Q^M) = 45$.
-- Marginal cost at $Q^M$: $MC(Q^M) = 15$.
-- Height: $p(Q^M) - MC(Q^M) = 45 - 15 = 30$.
-
-#### **Step 3: Why Not Use $p(Q^*)$?**
-Now, let’s consider using $p(Q^*)$, the price at the competitive output:
-- At $Q^* = 50$, $p(Q^*) = 75 - 50 = 25$, which equals $MC(Q^*) = \frac{1}{2} \cdot 50 = 25$.
-
-If we used $p(Q^*)$ instead of $MC(Q^M)$, the height would be:
-$$
-p(Q^M) - p(Q^*) = 45 - 25 = 20.
-$$
-
-This would give a welfare loss of:
-$$
-WL = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - p(Q^*)) = \frac{1}{2} \cdot (50 - 30) \cdot (45 - 25) = \frac{1}{2} \cdot 20 \cdot 20 = 200.
-$$
-
-This is incorrect because it doesn’t represent the true deadweight loss triangle:
-- $p(Q^*) = 25$ is the price at $Q^*$, but the welfare loss triangle’s height at $Q^M$ depends on the marginal cost at $Q^M$, not the price or marginal cost at $Q^*$.
-- Using $p(Q^*)$ would imply we’re measuring the height at the wrong point. The triangle’s height at $Q^M$ must reflect the difference between what consumers are willing to pay ($p(Q^M)$) and the cost of producing that unit ($MC(Q^M)$), because that’s the starting point of the lost surplus.
-
-#### **Step 4: Why $MC(Q^M)$ Makes Sense**
-- The marginal cost at $Q^M$ ($MC(Q^M)$) represents the cost of producing the last unit the monopolist makes.
-- For the units between $Q^M$ and $Q^*$, the surplus per unit is the difference between the demand curve (consumer willingness to pay) and the marginal cost (cost to produce). At $Q = Q^M$, this difference is $p(Q^M) - MC(Q^M)$, and at $Q = Q^*$, the difference is zero (since $p(Q^*) = MC(Q^*)$).
-- The welfare loss is the area of the triangle, which averages this difference over the range from $Q^M$ to $Q^*$. Using $MC(Q^M)$ as the lower bound of the height correctly captures the starting point of the lost surplus.
-
-#### **Step 5: Geometric Intuition**
-The welfare loss triangle has:
-- Base: $Q^* - Q^M = 50 - 30 = 20$.
-- Height at $Q^M$: $p(Q^M) - MC(Q^M) = 45 - 15 = 30$.
-- Height at $Q^*$: $p(Q^*) - MC(Q^*) = 25 - 25 = 0$.
-
-Since the demand and marginal cost curves are linear, the area of the triangle is:
-$$
-WL = \frac{1}{2} \cdot \text{base} \cdot \text{height at } Q^M = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - MC(Q^M)) = \frac{1}{2} \cdot 20 \cdot 30 = 300.
-$$
-
-Using $p(Q^*)$ would underestimate the height at $Q^M$, leading to an incorrect area.
+Welfare loss (deadweight loss) represents the economic inefficiency caused by monopoly pricing compared to perfect competition. In a competitive market, output occurs where price equals marginal cost ($p = MC$), maximizing total economic surplus. A monopolist restricts output to where marginal revenue equals marginal cost ($MR = MC$), creating a welfare loss from the units that could have been profitably produced but weren't.
 
 ---
 
-### **Methods and Concepts**
+## **The Economic Setup**
 
-- **Deadweight Loss:** The loss of economic efficiency when the equilibrium quantity is not at the competitive level. It’s the surplus that could have been gained from additional units but isn’t due to market distortions like a monopoly.
-- **Triangle Area:** The formula $\frac{1}{2} \cdot \text{base} \cdot \text{height}$ applies because the welfare loss region is a triangle (due to linear demand and marginal cost curves).
-- **Marginal Cost:** $MC = \frac{dC}{dQ}$, which determines the cost of producing additional units and is crucial for identifying the competitive output and the cost side of the welfare loss.
+Using the given example:
+- **Demand curve**: $p = 75 - Q$
+- **Marginal cost**: $MC = \frac{1}{2}Q$ (derived from $C(Q) = c^f + \frac{1}{4}Q^2$)
+- **Marginal revenue**: $MR = 75 - 2Q$ (for linear demand)
 
----
-
-### **Assumptions and Definitions**
-
-- **Linear Curves:** The demand and marginal cost curves are linear, making the welfare loss a perfect triangle. If they were non-linear, we’d need to integrate the difference between demand and marginal cost from $Q^M$ to $Q^*$.
-- **No Externalities:** We assume the only inefficiency is due to the monopoly’s output restriction, with no other market failures.
-- **Marginal Cost at $Q^M$:** This is the cost of producing the 30th unit, not the cost at $Q^*$, because we’re evaluating the surplus lost starting at the monopoly’s output level.
+**Equilibrium Points:**
+- **Monopoly**: $MR = MC \Rightarrow 75 - 2Q = \frac{1}{2}Q \Rightarrow Q^M = 30$, $p(Q^M) = 45$
+- **Competition**: $p = MC \Rightarrow 75 - Q = \frac{1}{2}Q \Rightarrow Q^* = 50$, $p(Q^*) = MC(Q^*) = 25$
 
 ---
 
-### **Summary**
+## **The Deadweight Loss Triangle**
 
-The welfare loss formula uses $MC(Q^M)$ because it correctly captures the height of the deadweight loss triangle at the monopoly output $Q^M$. This height ($p(Q^M) - MC(Q^M)$) reflects the surplus lost on the first unit not produced by the monopolist. Using $p(Q^*)$ (where $p = MC$) would measure the height at the wrong point, underestimating the welfare loss. The correct calculation, as shown, yields $WL = 300$, matching the solution provided in the image.
+The deadweight loss is the triangular area between:
+- The demand curve from $Q^M$ to $Q^*$
+- The marginal cost curve from $Q^M$ to $Q^*$
+- The vertical line at $Q^M$
+
+**Triangle vertices:**
+- Point A: $(Q^M, p(Q^M)) = (30, 45)$ - on the demand curve
+- Point B: $(Q^M, MC(Q^M)) = (30, 15)$ - on the MC curve  
+- Point C: $(Q^*, p(Q^*)) = (50, 25)$ - where demand meets MC
+
+---
+
+## **Why the Formula Works**
+
+The formula $WL = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - MC(Q^M))$ calculates the area of this triangle because:
+
+### **For Linear Curves, This Gives the Exact Area**
+
+When both demand and marginal cost curves are linear, the deadweight loss region is a perfect triangle. The area can be calculated as:
+
+$$\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}$$
+
+Where:
+- **Base**: $Q^* - Q^M = 50 - 30 = 20$
+- **Height**: The vertical distance at $Q^M$ between demand and MC curves = $p(Q^M) - MC(Q^M) = 45 - 15 = 30$
+
+Therefore: $WL = \frac{1}{2} \times 20 \times 30 = 300$
+
+### **Why This Height Measurement is Correct**
+
+The height $p(Q^M) - MC(Q^M)$ represents:
+- **$p(Q^M) = 45$**: What consumers are willing to pay for the 30th unit
+- **$MC(Q^M) = 15$**: The cost of producing the 30th unit
+- **Difference = 30**: The surplus that could be created from the 30th unit but is lost due to monopoly restriction
+
+---
+
+## **Alternative Calculation Methods**
+
+### **Integration Approach**
+The welfare loss can also be calculated by integrating the difference between willingness to pay and marginal cost:
+
+$$WL = \int_{Q^M}^{Q^*} [p(Q) - MC(Q)] \, dQ = \int_{30}^{50} [(75-Q) - \frac{1}{2}Q] \, dQ$$
+
+$$= \int_{30}^{50} (75 - \frac{3}{2}Q) \, dQ = [75Q - \frac{3}{4}Q^2]_{30}^{50} = 300$$
+
+This confirms our geometric calculation.
+
+### **Why Not Use $p(Q^*)$?**
+
+Some might ask why we don't use $p(Q^*) = MC(Q^*) = 25$ in the calculation. If we tried:
+
+$$WL_{incorrect} = \frac{1}{2} \times (Q^* - Q^M) \times (p(Q^M) - p(Q^*)) = \frac{1}{2} \times 20 \times (45-25) = 200$$
+
+This is wrong because:
+1. **$p(Q^*) = MC(Q^*)$** by definition at competitive equilibrium
+2. **The height should be measured vertically** at a single quantity point, not between different quantity points
+3. **$p(Q^M) - p(Q^*)$** represents the price difference between two different quantities, not the surplus per unit at any specific quantity
+
+> **Yes, we can substitute** $p(Q^*) = MC(Q^*)$ because they're identical at competitive equilibrium.
+> 
+> **But we don't substitute in the welfare loss formula** because the formula specifically needs $MC(Q^M)$, not $MC(Q^*)$.
+> 
+> The welfare loss formula is:
+> $$WL = \frac{1}{2} \times (Q^* - Q^M) \times (p(Q^M) - MC(Q^M))$$
+> 
+> We need $MC(Q^M) = MC(30) = 15$, not $MC(Q^*) = MC(50) = 25$.
+> 
+> The substitution $p(Q^*) = MC(Q^*)$ is valid, but it doesn't help us because we need the marginal cost at the monopoly quantity ($Q^M$), not at the competitive quantity ($Q^*$).
+> 
+> So the issue isn't that $p(Q^*) \neq MC(Q^*)$ - they are equal. The issue is that we need $MC$ evaluated at $Q^M$, not at $Q^*$.
+
+
+---
+
+## **Economic Interpretation**
+
+The welfare loss of 300 represents:
+- **Lost consumer surplus**: Consumers who would have bought units 31-50 at prices between 45 and 25, but can't because the monopolist restricts output
+- **Lost producer surplus**: The monopolist could profitably produce units 31-50 (since price exceeds marginal cost for these units) but chooses not to maximize short-term profits
+- **Pure inefficiency**: This surplus is lost to society entirely, not transferred between groups
+
+---
+
+## **Key Assumptions**
+
+- **Linear demand and marginal cost curves**: Ensures the welfare loss region is triangular
+- **No externalities**: The only market failure is monopoly pricing
+- **Single-price monopoly**: The monopolist charges the same price to all consumers
+- **No fixed costs in welfare calculation**: Fixed costs don't affect the marginal analysis of welfare loss
+
+---
+
+## **Summary**
+
+The formula $WL = \frac{1}{2} \cdot (Q^* - Q^M) \cdot (p(Q^M) - MC(Q^M))$ correctly calculates deadweight loss because:
+
+1. **It measures the right triangle**: The area between demand and marginal cost curves from $Q^M$ to $Q^*$
+2. **It uses the correct height**: $p(Q^M) - MC(Q^M)$ is the vertical distance between curves at the monopoly quantity
+3. **It reflects economic reality**: Each unit between $Q^M$ and $Q^*$ has value exceeding its production cost, representing genuine welfare loss
+
+The calculation yields $WL = 300$, representing the total surplus lost due to monopoly output restriction.

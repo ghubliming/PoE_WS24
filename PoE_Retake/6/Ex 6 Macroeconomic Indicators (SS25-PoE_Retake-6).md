@@ -1,8 +1,21 @@
 # P1 Gross Domestic Product
+How GDP calculated, 2 Methods 
+How Net export calculated
+
+
 [[(P1 Gross Domestic Product--Ex 6 Macroeconomic Indicators)]]
 # P2-4 Price Level
+How Nominal/Real GDP Cal
+Price Higher → Nominal GPD Higher → real GDP with *1st year data*
+The GDP-Deflator, CPI=(**output** in *1st year* x price in *current year* )/ … price *1st year*
+
+
 [[(P2-4 Price Level--Ex 6 Macroeconomic Indicators) (SS25-PoE_Retake-6)]]
 # P5-6 Unemployment
+e: labor force participate rate E + U / N
+u: unemployment rate → U / U + L
+
+
 [[(P5-6 Unemployment--Ex 6 Macroeconomic Indicators) (SS25-PoE_Retake-6)]]
 
 

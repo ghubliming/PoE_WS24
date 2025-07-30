@@ -290,8 +290,8 @@ $$
   r^* = 5
 $$
 - **Assumptions and Definitions**:
-  - **Savings = Investment**: A national income accounting identity in a closed economy.
-  - Assumes equilibrium in both markets.
+  - ==**Savings = Investment**: A national income accounting identity in a closed economy.==
+  - ==Assumes equilibrium in both markets.==
 - **Contribution**: Determines the equilibrium interest rate.
 
 **Step 2: Use the Interest Rate Formula**
